@@ -124,7 +124,7 @@ if __name__ == '__main__':
     Script.registerSwitch( "v", "verbose", "Turn verbose on"  )
     Script.setUsageMessage( '\n'.join( [ __doc__.split( '\n' )[1],
                                        'Usage:',
-                                       '  %s [option|cfgfile] ... LFN ...' % Script.scriptName,
+                                       '  %s [option|cfgfile] ... TAG ...' % Script.scriptName,
                                        'Arguments:',
                                        '  TAG:      Software tag you want to install' ] ) )
     Script.parseCommandLine()
